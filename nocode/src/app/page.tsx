@@ -56,7 +56,7 @@ export default function Home() {
             className="rounded-full border border-solid border-blue-500 text-blue-500 transition-colors flex items-center justify-center hover:bg-blue-50 font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[220px]"
             onClick={() => router.push("/dashboard")}
           >
-            Manage API Keys (see 'Manage API' button)
+            Manage API Keys (see &apos;Manage API&apos; button)
           </button>
         </div>
       </main>

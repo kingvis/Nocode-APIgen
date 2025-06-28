@@ -36,7 +36,6 @@ export default function DashboardOverview() {
     setTimeout(() => setCopyFeedback(f => ({ ...f, [id]: false })), 1200);
     showNotification("API Key copied to clipboard!", "success");
   };
-  const handleEdit = key => setEditKey(key);
   const handleDelete = async id => {
     if (!window.confirm('Are you sure you want to delete this API key?')) return;
     setLoading(true);

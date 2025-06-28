@@ -79,7 +79,7 @@ export default function CreateApiKeyModal({ open, onClose, onCreate, editKey, lo
             onChange={e => setLimit(e.target.value)}
             disabled={!limitEnabled}
           />
-          <div className="text-xs text-gray-400 mb-4">* If the combined usage of all your keys exceeds your plan's limit, all requests will be rejected.</div>
+          <div className="text-xs text-gray-400 mb-4">* If the combined usage of all your keys exceeds your plan&apos;s limit, all requests will be rejected.</div>
           <div className="flex gap-4 mt-6 justify-center">
             <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-2 rounded-full shadow transition text-lg" disabled={loading}>{isEdit ? 'Save' : 'Create'}</button>
             <button type="button" className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold px-8 py-2 rounded-full shadow transition text-lg" onClick={onClose} disabled={loading}>Cancel</button>

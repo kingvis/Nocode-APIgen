@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
             {/* Navigation */}
             <nav className="flex-1">
               <ul className="space-y-2">
-                {navItems.map((item, idx) => (
+                {navItems.map((item) => (
                   <li key={item.name}>
                     <a
                       href={item.href}
